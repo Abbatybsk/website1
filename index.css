@@ -1,0 +1,154 @@
+/* Reset default browser style */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #271;
+    width: 90%;
+    margin: 0 auto;
+}
+.container {
+    max-width: 950px;
+    
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header section */
+header {
+    background-color: indigo;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: list-item;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5f90f1;nn
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    color: aqua;
+}
+
+/* Jan sectio */
+#jan {
+    background-image: url("images/img3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.jan-content {
+        background-color: none;
+    opacity: 0.8;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(249, 249, 252);
+}
+
+.jan-content h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.contact-button {
+    background-color: #344;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.contact-button:hover{
+    background-color: rgb(144, 66, 144);
+}
+#about-container {
+    display: flex;
+}
+
+.about-content h2 {
+    font-size: 18px;
+    margin-bottom: 20px ;
+}
+
+#projects {
+    background-color: #851919;
+    padding: 40px;
+    text-align: left;
+}
+.profile img {
+    width: 50%;
+    height: 80%;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.projects {
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.projects img {
+    width: 90%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+input,
+section,
+textarea,
+button {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    
+}
+
+button {
+    background-color: rgb(19, 33, 182);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+        background-color: rgb(144, 66, 144);
+    }
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
